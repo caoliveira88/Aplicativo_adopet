@@ -1,0 +1,75 @@
+/*LOGIN*/
+
+body {
+    background-color: var(--cor-0);
+    background-image: url(/Img/Mob/Detalhe1-mob.png), url(/Img/Mob/Detalhe3.png);
+    background-repeat: no-repeat;
+    background-position: top left, left bottom 8.5em;
+}
+
+.header-bg {
+    background-image: url(/Img/Mob/Patas-mob.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.login-container {
+    max-width: 312px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.login-logo {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: var(--cor-1);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.login-form label {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-5);
+}
+
+.login-form input {
+    position: relative;
+    text-align: center;
+    width: 312px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--cor-7);   
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); 
+}
+
+#senha {
+    margin-bottom: 8px;
+}
+
+.login-form input::placeholder {
+    color: var(--cor-6);
+    font-size: 12px;   
+}
+
+.login-recuperar-senha {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: var(--cor-3);
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+/*HEADER INICIAL - CADASTRO - LOGIN*/
+
+.header-container {
+   width: 100%;
+   padding: 48px 0 106px 48px;
+}
+
+.header-menu {
+   display: flex;
+   gap: 58px;
+   align-items: center;
+   
+}
+
+/*HEADER HOME - MENSAGEM - PERFIL*/
+
+.header-secundario-container {
+   width: 100%;
+   padding: 48px 0 70px 0;
+}
+
+.header-secundario-nav {
+   display: flex;
+   justify-content: space-between;
+   width: 75%;
+   margin: auto;
+}
+
+.header-secundario-menu {
+   display: flex;
+   gap: 58px;
+   align-items: center;
+}
+
+.header-secundario-usuario {
+   display: flex;
+   justify-content: right;
+}

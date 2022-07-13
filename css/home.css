@@ -1,0 +1,82 @@
+/*HOME*/
+
+body {
+    background-color: var(--cor-0);
+    background-image: url(/Img/Mob/Detalhe1-mob.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.home-container {
+    width: 100%;
+    max-width: 226px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-1);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 42px 0 42px 0;
+}
+
+.home-ficha-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+}
+
+.home-ficha {
+    display: flex;
+    background-color: var(--cor-7);
+    width: 100%;
+    padding: 16px ;
+    gap: 16px;
+    height: 196px;
+    margin-bottom: 16px;
+}
+
+.home-ficha-imagem-pets {
+    max-width: 148px;
+    width: 100%;
+}
+
+.home-ficha-pets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 16px;
+    color: var(--cor-1);
+    font-family: var(--fonte-principal);
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px; 
+    color: var(--cor-5);
+    font-family: var(--fonte-principal);
+    line-height: 20px;
+}
+
+.home-ficha-contato {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.home-ficha-local p {
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.home-ficha-contato p {
+    font-size: 10px;
+}
+

@@ -1,0 +1,90 @@
+/*CADASTRO*/
+
+body {
+    background-color: var(--cor-0);
+    background-image: url(/Img/Mob/Detalhe1-mob.png), url(/Img/Mob/Detalhe3.png);
+    background-repeat: no-repeat;
+    background-position: top left, left bottom 8.5em;
+}
+
+.header-bg {
+    background-image: url(/Img/Mob/Patas-mob.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.cadastro-container {
+    max-width: 312px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.cadastro-logo {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--cor-1);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+.cadastro-container p {
+    margin-bottom: 24px;
+    color: var(--cor-1);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.cadastro-form label {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-5);
+}
+
+.cadastro-form input {
+    position: relative;
+    text-align: center;
+    width: 312px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--cor-7);   
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); 
+}
+
+.cadastro-form input::placeholder {
+    color: var(--cor-6);
+    font-size: 12px;   
+}
+
+.cadastro-senha img {
+    position: relative;
+    z-index: 99;
+    top: 50%;
+    right: 0;
+}
+#senha#confirme-senha {
+    position: absolute;
+}
+
+.cadastro-senha-cofirme img {
+    position: absolute;
+    z-index: 99;
+    top: 642px;
+    right: 40px;
+}

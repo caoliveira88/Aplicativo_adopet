@@ -1,0 +1,27 @@
+/*CORES E TIPOGRAFIA*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,200;1,300&family=Poppins:wght@200;300;400;500&family=Roboto:wght@400;500&family=Yeseva+One&display=swap');
+
+:root {
+    --cor-0: #ffffff;
+    --cor-1: #3772FF;
+    --cor-2: #36D6AD;
+    --cor-3: #FC7071;
+    --cor-4: #FCF0E3;
+    --cor-5: #737380;
+    --cor-6: #BCBCBC;
+    --cor-7: #F7F7F7; /*fundos*/
+
+    --fonte-principal:'Poppins', sans-serif;
+}
+
+.botao {
+    width: 148px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--cor-3);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-0);
+}

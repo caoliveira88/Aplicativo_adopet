@@ -1,0 +1,66 @@
+/*INICIAL*/
+
+body {
+    background-color: var(--cor-1);
+    background-image: url(../../Img/Mob/Detalhe1-mob.png), url(../../Img/mob/Detalhe2-mob.png), url(../../Img/Mob/Ilustração-mob.png);
+    background-repeat: no-repeat;
+    background-position: top left, right center, bottom 5em center;
+}
+
+.inicial-container {
+    max-width: 248px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.inicial-logo {
+    margin-bottom: 24px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: var(--cor-0);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.inicial-container p {
+    margin-bottom: 24px;
+    color: var(--cor-0);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.inicial-botao-login {
+    padding: 8px 26px;
+    background-color: var(--cor-3);
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+a {
+    color: var(--cor-0);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.inicial-botao-cadastro {
+    padding: 8px 8px;
+    background-color: var(--cor-3);
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
