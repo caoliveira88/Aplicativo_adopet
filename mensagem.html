@@ -9,7 +9,7 @@
     <meta name="description" content="Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente! ">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/mensagem.css">
 
 </head>
 
@@ -35,14 +35,33 @@
 
     <!--CONTEÚDO MENSAGEM-->  
     <main>
-        <div class="home-container">
+        <div class="mensagem-container">
             <h1>
                 Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
             </h1>      
         </div>
 
-    
-        
+        <section class="mensagem-container-formulario">
+
+            <form class="mensagem-form" action="./cadastro.html">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome completo">
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="Insira seu telefone e/ou whatsapp">
+                </div>
+                <div>
+                    <label for="nome-pet">Nome do pet</label>
+                    <input type="text" id="nome" name="nome" placeholder="Por qual animal você se interessou?">
+                </div>
+                <div> 
+                    <label for="mensagem">Mensagem</label>
+                    <input type="mensagem" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem">
+                </div>
+                <button class="botao">Enviar</button>
+        </section>
     </main>
 
     
