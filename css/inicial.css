@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 .inicial-logo {
@@ -42,25 +41,14 @@ h1 {
     line-height: 24px;
 }
 
-.inicial-botao-login {
-    padding: 8px 26px;
-    background-color: var(--cor-3);
+.inicial-botao  {
+    width: 180px;
+    height: 40px;
+    border: none;
     border-radius: 6px;
-    margin-bottom: 24px;
-}
-
-a {
-    color: var(--cor-0);
-    font-family: var(--fonte-principal);
-    font-style: normal;
-    font-weight: 400;
+    background-color: var(--cor-3);
     font-size: 16px;
-    line-height: 24px;
-}
-
-.inicial-botao-cadastro {
-    padding: 8px 8px;
-    background-color: var(--cor-3);
-    border-radius: 6px;
-    margin-bottom: 24px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-0);
+    margin-bottom: 16px;
 }
