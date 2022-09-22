@@ -70,6 +70,7 @@ h1 {
 .cadastro-form input::placeholder {
     color: var(--cor-6);
     font-size: 12px;   
+    font-family: var(--fonte-principal);
 }
 
 .cadastro-senha img {
