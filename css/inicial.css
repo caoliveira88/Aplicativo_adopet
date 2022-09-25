@@ -2,7 +2,7 @@
 
 body {
     background-color: var(--cor-1);
-    background-image: url(../../Img/Mob/Detalhe1-mob.png), url(../../Img/mob/Detalhe2-mob.png), url(../../Img/Mob/Ilustração-mob.png);
+    background-image: url(../../Img/Mob/Detalhe1-mob.png), url(../../Img/mob/Detalhe2-mob.png), url(../../Img/Global/Ilustracao.png);
     background-repeat: no-repeat;
     background-position: top left, right center, bottom 5em center;
 }
