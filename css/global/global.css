@@ -7,9 +7,10 @@
 }
 
 body {
-    min-height: 100vh;
+    height: 1200px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 h1, h2, h3, ul, p, blockquote, dd {
