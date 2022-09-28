@@ -36,3 +36,11 @@
    display: flex;
    justify-content: right;
 }
+
+@media (min-width: 768px) {
+
+   .header-container {
+      padding: 48px 0 200px 48px;
+   }
+
+}
