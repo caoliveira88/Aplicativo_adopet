@@ -26,6 +26,10 @@
    margin: auto;
 }
 
+.logo-header-tab {
+   display: none;
+}
+
 .header-secundario-menu {
    display: flex;
    gap: 58px;
@@ -41,6 +45,10 @@
 
    .header-container {
       padding: 48px 0 200px 48px;
+   }
+
+   .logo-header-tab {
+      display: block;
    }
 
 }
