@@ -89,3 +89,30 @@ h1 {
     top: 642px;
     right: 40px;
 }
+
+@media (min-width: 768px) {
+
+    body {
+        background-image: url(../Img/Tab/Detalhe1-tab.png), url(../Img/Tab/Detalhe2-tab.png);
+        background-position: top left, right center, bottom 5em center;
+    }
+
+    .header-bg {
+        background-image: url(/Img/Tab/Patas-tab.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    .cadastro-logo {
+        width: 251px;
+        height: 60px;
+        margin-bottom: 48px;
+    }
+
+    .cadastro-container {
+        max-width: 520px;
+    }
+
+    
+
+}    
