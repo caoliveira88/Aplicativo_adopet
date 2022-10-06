@@ -73,3 +73,22 @@ h1 {
     color: var(--cor-3);
     text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+
+    body {
+        background-image: url(../Img/Tab/Detalhe1-tab.png), url(../Img/Tab/Detalhe2-tab.png);
+        background-position: top left, right center, bottom 5em center;
+    }
+
+    .header-bg {
+        background-image: url(/Img/Tab/Patas-tab.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    .login-logo {
+        width: 251px;
+        height: 60px;
+    }
+}
