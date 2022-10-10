@@ -12,21 +12,26 @@
    
 }
 
+.logo-header-tab {
+   display: none;
+}
+
 /*HEADER HOME - MENSAGEM - PERFIL*/
 
 .header-secundario-container {
    width: 100%;
-   padding: 48px 0 70px 0;
+   padding: 16px 0 48px 0;
 }
 
 .header-secundario-nav {
    display: flex;
    justify-content: space-between;
-   width: 75%;
+   width: 100%;
+   padding: 0 40px;
    margin: auto;
 }
 
-.logo-header-tab {
+.logo-header-secundario-tab {
    display: none;
 }
 
@@ -49,6 +54,14 @@
 
    .logo-header-tab {
       display: block;
+   }
+
+   .logo-header-secundario-tab {
+      display: block;
+   }
+
+   .header-secundario-container {
+      padding: 48px 0 150px 0;
    }
 
 }
