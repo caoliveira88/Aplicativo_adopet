@@ -113,6 +113,15 @@ h1 {
         max-width: 520px;
     }
 
-    
-
 }    
+
+@media (min-width: 1440px) {
+
+    .email {
+        width: 552px !important;
+    }
+    .nome {
+        width: 552px !important;
+    }
+
+}
