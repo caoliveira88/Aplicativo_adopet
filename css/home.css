@@ -1,6 +1,7 @@
 /*HOME*/
 
 body {
+    height: 100vh;
     background-color: var(--cor-0);
     background-image: url(/Img/Mob/Detalhe1-mob.png);
     background-repeat: no-repeat;
@@ -103,6 +104,34 @@ p {
         margin-bottom: 0;
     }
 
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        background-image: url(../Img/Tab/Detalhe1-tab.png), url(../Img/Tab/Detalhe2-tab.png);
+        background-repeat: no-repeat;
+        background-position: top left, right center;
+    }
+
+
+    .home-ficha-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 32px;
+        gap: 16px;
+        row-gap: 16px;
+        align-items: center;
+        justify-items: center;
+        max-width: 1086px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .home-ficha {
+        width: 362px;
+    }
+  
 }
 
 

@@ -72,4 +72,12 @@
       padding: 48px 0 60px 160px;
    }
 
+   .header-secundario-container {
+      padding: 48px 174px 60px 160px;
+   }
+
+   .header-secundario-menu {
+      gap: 40px;
+   }   
+
 }
