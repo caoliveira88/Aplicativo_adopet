@@ -92,3 +92,9 @@ h1 {
         height: 60px;
     }
 }
+
+@media (min-width: 1440px) {
+    .email {
+        width: 552px !important;
+    }
+}
