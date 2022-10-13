@@ -78,3 +78,20 @@ textarea {
     
 }
 
+@media (min-width: 768px) {
+    body {
+        background-image: url(../Img/Tab/Detalhe1-tab.png), url(../Img/Tab/Detalhe2-tab.png);
+        background-position: top left, right center, bottom 5em center;
+    }
+
+    .mensagem-container {
+        max-width: 524px;
+    } 
+
+    .mensagem-container-formulario {
+        width: 70%;
+        margin-bottom: 4.5rem;
+    }
+
+}
+
