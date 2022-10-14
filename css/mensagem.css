@@ -1,6 +1,7 @@
 /*MENSAGEM*/
 
 body {
+    height: 100vh;
     background-color: var(--cor-0);
     background-image: url(/Img/Mob/Detalhe1-mob.png);
     background-repeat: no-repeat;
@@ -91,6 +92,19 @@ textarea {
     .mensagem-container-formulario {
         width: 70%;
         margin-bottom: 4.5rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .mensagem-container-formulario {
+        width: 35%;
+        margin-bottom: 2rem;
+    }
+
+    .mensagem-form input {
+        width: 100%;
     }
 
 }
