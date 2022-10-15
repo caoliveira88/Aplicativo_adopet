@@ -1,7 +1,11 @@
 # Adopet
-História:  
+História: 
+
+Um lindo projeto!
 
 A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs que possuem foco de retirar animais da rua <3
+
+![pagina_bikcraft](Img/Adopet.jpg)
 
 ## Tecnicas e ferramentas utilizadas
  
@@ -12,4 +16,3 @@ A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de anima
 - ``Mobile First``
 - ``VS Code IDEA``
 
-Em construção 🚧
