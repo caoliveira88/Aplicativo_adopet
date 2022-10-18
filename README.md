@@ -12,7 +12,6 @@ A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de anima
 - ``Figma`` 
 - ``HTML``
 - ``CSS``
-- ``Flex box``
 - ``Mobile First``
 - ``VS Code IDEA``
 
